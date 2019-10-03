@@ -1,3 +1,52 @@
-p {
-    font-family: helvetica;
+html{
+    background-color: black;
+    font-family: Verdana;
+    color: white;
+}
+
+header{
+    text-align: center;
+}
+header h1{
+    font-size: 50px;
+    font-weight: normal;
+}
+header a {
+    color: aquamarine;
+    font-size: 16px;
+}
+
+video{
+    display: block;
+    margin: 0 auto;
+}
+
+.content{
+    text-align: center;
+}
+
+.content h2{
+    font-size: 42px;
+    font-weight: 300;
+    margin: 40px;
+}
+
+.content p{
+    font-size: 21px;
+    color: gray;
+}
+img{
+    display: block;
+    margin: 25px auto;
+}
+
+.content a {
+    color: aquamarine;
+    font-size: 16px;
+}
+
+.footer{
+    text-align: right;
+    color: gray;
+    margin-top: 20px;
 }
